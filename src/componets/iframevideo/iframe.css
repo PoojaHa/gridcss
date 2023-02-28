@@ -1,0 +1,40 @@
+.video_container{
+    margin:0 60px;
+}
+.ifrarme__video {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.count__container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: rgb(230, 223, 223);
+  margin: 0;
+  width: 100%;
+}
+.count__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.count__header  h1{
+    color: rgb(172, 161, 161);
+    font-size: 50px;
+    font-weight: 900;
+}
+.content h1{
+    color: black;
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+}

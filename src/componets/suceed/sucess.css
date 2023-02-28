@@ -1,0 +1,48 @@
+.grid{
+    display: grid;
+    grid-template-columns: 100px 350px 1fr;
+    gap:20px;
+    align-items: center;
+  
+ }
+ .wrapper{
+   margin:10px 60px;
+ }
+ .sucessd-num{
+   display: grid;
+  place-content: center;
+  border-radius: 50px ;
+  border: 1px  solid black;
+  max-width: 40px;
+  max-height: 40px;
+  position: relative;
+  padding: 7px;
+}
+.sucessd-img{
+   width:20rem;
+}
+.sucessd-img img{
+ width: 100%;
+}
+.sucessd-content ul {
+  list-style-type: none;
+}
+ul li::before {
+   content: "\2022";    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+   color: rgb(150, 147, 147); /* Change the color */ /* If you want it to be bold */
+   display: inline-block; /* Needed to add space between the bullet and the text */
+   width: 1em; /* Also needed for space (tweak if needed) */
+   margin-left: -1em; /* Also needed for space (tweak if needed) */
+ }
+ 
+ .sucessd-num p::after{
+   content: "";
+   height: 144px;
+   background-color: black;
+   width: 1px;
+   position: absolute;
+   top: 40px;
+   left: 19px;
+   
+ }
+ 

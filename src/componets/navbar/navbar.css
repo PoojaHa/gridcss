@@ -1,0 +1,46 @@
+.navbar{
+    background-color: #f2eaea;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    position: relative;
+    gap:200px; 
+    justify-items: center;
+}
+.main-nav ul {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  list-style-type: none;
+}
+
+.main-nav li{
+    padding: 30px 15px;
+ }
+ .main-nav li:hover{
+    background-color: wheat;
+    border-top: 4px solid rgb(210, 94, 52);
+}
+/* .main-nav ul li::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 0;
+    right: 0;
+    top: -5px;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .main-nav ul li:hover::before {
+    width: 100%;
+  } */
+  .login-btn{
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+     padding: 10px;
+     box-shadow: 0 1px 15px rgba(104,104,104,0.8);
+     border: none;
+     border-radius: 5px;
+  }
+  

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.9d111eee.css",
+    "main.js": "/react-gh-pages/static/js/main.8ab9ca73.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
+    "static/media/get-marketplace.png": "/react-gh-pages/static/media/get-marketplace.20793bc6d20cdb707809.png",
+    "static/media/slide.png": "/react-gh-pages/static/media/slide.4221cfd84759c80f6e25.png",
+    "static/media/steps1.png": "/react-gh-pages/static/media/steps1.87ca68ff871a32ddce26.png",
+    "static/media/logo-full.svg": "/react-gh-pages/static/media/logo-full.c7ffb04d29da956613eaae112fc374e7.svg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.9d111eee.css.map": "/react-gh-pages/static/css/main.9d111eee.css.map",
+    "main.8ab9ca73.js.map": "/react-gh-pages/static/js/main.8ab9ca73.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d111eee.css",
+    "static/js/main.8ab9ca73.js"
+  ]
+}
